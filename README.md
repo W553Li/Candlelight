@@ -1,7 +1,7 @@
 # Candlelight
 Java roguelike game
 
-This game was made with the usage/assistance of a coding tutorial series (https://www.youtube.com/watch?v=e9jRfgjV4FQ&list=PLWms45O3n--5vDnNd6aiu1CSWX3JlCU1n) made by RealTutsGML. Various game features such as the game-loop, rendering and tick method, entity bounds/hitboxes, shooting, etc. waere taken from the tutorial whereas other features such as the bosses, randomizers, gameplay-loop and certain controls were designed by myself.
+This is a window-based roguelike game featuring an endless, randomized dungeon. The game contains 10 stages, each with their own unique layout and a multitude of randomized enemies and items. There are 3 attacks in the game, a close range slash and a magic projectile using the left and right mouse button respectively, and a powerful area-of-effect ability using Z. The items in the game increase various stats such as physical and magic damage, movement speed, and defense, while the unique boss drops increase regeneration for mana, health, and special ability cooldown. The various enemies and bosses each have their own unique stats that increase proportionately to the stage level. Every 5 stages features 1 of 2 bosses, each with unique abilities and an real-time updating health bar and drop a powerful item upon defeat.
 
 All sprites used in the game were created by various creators from itch.io :
 
