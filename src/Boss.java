@@ -200,7 +200,11 @@ public class Boss extends GameObject{
     }
 
     public static void heal() {
-        hp += 500;
+        if ((hp + 500) < max_hp) {
+            hp += 500;
+        } else if ((hp + 500) > max_hp) {
+            hp = max_hp;
+        }
     }
 
     public void render(Graphics g) {
